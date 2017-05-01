@@ -5,5 +5,5 @@ COPY . /IA
 
 RUN cd /IA && rm TSP && make
 
-CMD cd /IA && ./TSP Inputs/TSP_IN_01.txt 
+RUN cd /IA && ./TSP Inputs/TSP_IN_01.txt 
 
